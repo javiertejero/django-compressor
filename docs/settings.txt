@@ -440,14 +440,6 @@ Offline settings
     pre-compress CSS and JavaScript files and works just like the automatic
     compression with the ``{% compress %}`` tag.
 
-.. attribute:: COMPRESS_OFFLINE_TIMEOUT
-
-    :Default: ``31536000`` (1 year in seconds)
-
-    The period of time with which the ``compress`` management command stores
-    the pre-compressed the contents of ``{% compress %}`` template tags in
-    the cache.
-
 .. attribute:: COMPRESS_OFFLINE_CONTEXT
 
     :Default: ``{'STATIC_URL': settings.STATIC_URL}``

@@ -60,8 +60,6 @@ class CompressorConf(AppConf):
     MTIME_DELAY = 10  # seconds
     # enables the offline cache -- also filled by the compress command
     OFFLINE = False
-    # invalidates the offline cache after one year
-    OFFLINE_TIMEOUT = 60 * 60 * 24 * 365  # 1 year
     # The context to be used when compressing the files "offline"
     OFFLINE_CONTEXT = {}
     # The name of the manifest file (e.g. filename.ext)
